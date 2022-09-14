@@ -1,6 +1,14 @@
 import * as React from "react";
 
-export default class Flag extends React.Component {
+type Props = {
+  id: string;
+  size?: number;
+  width?: number;
+  height?: number;
+  onPress: () => void;
+};
+
+export default class Flag extends React.Component<Props, any> {
   static propTypes: {
     id: string;
     size: number;
