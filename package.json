@@ -1,6 +1,6 @@
 {
   "name": "react-native-svg-flagkit-typescript",
-  "version": "0.9.10",
+  "version": "0.9.11",
   "description": "SVG flag for react-native",
   "main": "index.js",
   "repository": {
