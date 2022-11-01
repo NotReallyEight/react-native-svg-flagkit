@@ -5,7 +5,7 @@ type Props = {
   size?: number;
   width?: number;
   height?: number;
-  onPress: () => void;
+  onPress?: () => void;
 };
 
 export default class Flag extends React.Component<Props, any> {
@@ -14,7 +14,7 @@ export default class Flag extends React.Component<Props, any> {
     size: number;
     width: number;
     height: number;
-    onPress: () => void;
+    onPress?: () => void;
   };
   static defaultProps: {
     size: number;
